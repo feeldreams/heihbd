@@ -24,7 +24,7 @@ blockquote > .gaya2, #pesan5, #pesan6, #pesan7, #pesan8, #pesan9, #pesan10{font-
 blockquote > .gaya3{transform: scale(0);transition:all .8s ease;font-family:var(--gaya-font2);font-weight:700;font-size:24px !important;}
 blockquote > #pesan3{position: absolute;opacity:0;transform: scale(.1);transition:all .7s ease;}
 blockquote > #pesan5, blockquote > #pesan8{margin-top:25px}
-blockquote p:not(#opsL, #kalimat, #pesan3, .gaya2, .gaya3){display:none;}
+blockquote p:not(#opsL, #kalimat, #pesan3, #pesan5, #pesan6, #pesan7, #pesan8, #pesan9, #pesan10, .gaya2, .gaya3){display:none;}
 blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0;margin-top:24px;color:white;opacity:0;transition:all .2s ease;}
 
 #Tombol{position:relative;opacity:0;margin:0;display:flex;align-items:left;list-style:none;transform: scale(.1);transition:all 1s ease;}
