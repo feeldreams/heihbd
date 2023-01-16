@@ -161,3 +161,9 @@ function initengahan(){
       vketik8="";aktipesan8();
     }
     }
+
+  //Variable Pertanyaan Akhir
+  var tanya = pertanyaan.innerHTML;
+  var opstanya = deskripsi.innerHTML;
+  var tompositif = tombolterima.innerHTML;
+  var tomnegatif = tomboltolak.innerHTML;
