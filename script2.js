@@ -163,7 +163,7 @@ function initengahan(){
     }
 
   //Variable Pertanyaan Akhir
-  var tanya = pertanyaan.innerHTML;
+  var tanya = popuptanya.innerHTML;
   var opstanya = deskripsi.innerHTML;
   var tompositif = tombolterima.innerHTML;
   var tomnegatif = tomboltolak.innerHTML;
