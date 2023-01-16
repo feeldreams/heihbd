@@ -27,11 +27,12 @@ blockquote > #pesan3{position: absolute;opacity:0;transform: scale(.1);transitio
 blockquote > #pesan5, blockquote > #pesan8{margin-top:25px}
 blockquote p:not(#opsL, #kalimat, #pesan3, #pesan5, #pesan6, #pesan7, #pesan8, #pesan9, #pesan10, .gaya2, .gaya3){display:none;}
 blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0;margin-top:24px;color:white;opacity:0;transition:all .2s ease;}
-blockquote > #pesan10{font-family:var(--gaya-font2)}
+blockquote > #pesan10{font-weight:700;font-family:var(--gaya-font2)}
 
 #Tombol{position:relative;opacity:0;margin:0;display:flex;align-items:left;list-style:none;transform: scale(.1);transition:all 1s ease;}
 #Tombol a{cursor:pointer;display:inline-flex;align-items:center; margin:0;margin:12px 0 12px 0;transition:all .2s ease;padding:10px;outline:0;border: 1px solid #fefefeba;border-radius:10px 0 10px 0;line-height:15px;background:rgba(0,0,0,.5);color:var(--tombol-teks);font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;box-shadow: rgba(255,255,255, 0.3) 0px 7px 29px 0px;z-index:1} 
 #Bn{margin:12px 0 12px 12px !important;}
+#tomLanjut{display:none}
 
 #Content{animation-name:none;animation-duration: 3s;animation-iteration-count: infinite;position:relative;opacity:0;margin-top:50px;width:100%;height:180px;transition:all .7s ease;}
 #Content > *{display:flex;align-items:center;text-align:center;justify-content:center;margin-top:1px;}
