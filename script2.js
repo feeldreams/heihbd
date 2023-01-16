@@ -138,7 +138,7 @@ function initengahan(){
     wallpaper.style="transform: scale(1.5);";
     fthilang();ftganti=5;setTimeout(ftmuncul,300);
     otoaktipesan=1;otomatis();setTimeout(toaktipesan,300);
-    setInterval(berjatuhan,400);
+    //setInterval(berjatuhan,400);
     fungsi=2;setTimeout(tombol,2000);
   }
   var otoaktipesan=0;
