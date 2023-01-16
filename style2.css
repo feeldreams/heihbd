@@ -8,6 +8,7 @@
 --gaya-font: 'Shippori Antique', sans-serif;
 --gaya-font2: 'Dancing Script', sans-serif;
 }
+
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
 body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
 body::before{content:"\00A9  Rayys | PalingIT";color:white;opacity:.05;font-size:10px;position:fixed;bottom:25px;right:25px;z-index:2}
