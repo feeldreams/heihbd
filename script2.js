@@ -144,7 +144,7 @@ function initengahan(){
     fungsi=2;setTimeout(tombol,2000);
   }
   var otoaktipesan=0;
-  function toaktipesan(){kalimat.style.display="none";pesan10.innerHTML=vketik10;pesan10.style="transform:scale(1);font-size:24px;font-family:var(--gaya-font2)";}
+  function toaktipesan(){kalimat.style.display="none";pesan10.innerHTML=vketik10;pesan10.style="transform:scale(1);font-size:24px;";}
 
   document.getElementById("lv1").onclick = function() {lv1.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   document.getElementById("lv2").onclick = function() {lv2.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
