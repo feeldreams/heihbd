@@ -1,6 +1,8 @@
 ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh";By.innerHTML=tomLanjut.innerHTML;
 
-document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(mulainama,500)}}
+document.getElementById("kadoIn").onclick = function() {
+window.location.replace("https://www.feeldream.my.id/2023/01/script-html-bucin.html");
+if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(mulainama,500)}}
   
 async function menuju(){pesanwhatsapp = pesanwhatsapp.innerHTML;await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
 
